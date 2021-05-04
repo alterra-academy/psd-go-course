@@ -12,4 +12,4 @@
 | 6     | Introduction Echo Framework         | 6-intro-echo                    |
 | 7     | ORM & Code Structure                | 7-orm-codestructure             |
 | 8     | Middleware                          | 8-middleware                    |
-| 9     | Unit Testing                        | 9-unit-testing                  |
+| 9     | Unit Testing                        | 9.1-unit-testing & 9.2-unit-testing |
