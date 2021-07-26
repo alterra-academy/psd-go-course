@@ -38,7 +38,7 @@ func InsertDataUserForGetUsers() error {
 	}
 
 	var err error
-	if err = configs.DB.Save(&user).Error; err != nil {
+	if err = config.DB.Save(&user).Error; err != nil {
 		return err
 	}
 	return nil
@@ -74,7 +74,7 @@ func TestGetUserController(t *testing.T) {
 
 			// open file
 			// convert struct
-			var user models.UserResponse
+			var user UserResponse
 			err := json.Unmarshal([]byte(body), &user)
 
 			if err != nil {

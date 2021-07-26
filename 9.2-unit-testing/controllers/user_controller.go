@@ -10,6 +10,11 @@ import (
 	"github.com/labstack/echo"
 )
 
+type UserResponse struct {
+	Message string
+	Data    []models.Users
+}
+
 func Addition(a, b int) int {
 	result := a + b
 	return result
